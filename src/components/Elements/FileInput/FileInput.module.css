@@ -1,0 +1,40 @@
+.InputFile[type="file"] {
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #f8f9fa;
+	color: #495057;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.InputFile[type="file"]:hover {
+	border-color: #007bff;
+}
+
+.InputFile[type="file"]:focus {
+	outline: none;
+	border-color: #007bff;
+	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.InputFile[type="file"]::placeholder {
+	color: #6c757d;
+}
+
+.InputFile[type="file"]::-webkit-file-upload-button {
+	padding: 10px 20px;
+	margin-right: 10px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.InputFile[type="file"]::-webkit-file-upload-button:hover {
+	background-color: #0056b3;
+}
